@@ -13,7 +13,7 @@ byte servoOffset = 0;   // change the value to Calibrate servo
 
 void setup() {
   servo.attach(PIN_SERVO);        //initialize servo
-  servo.write(30 + servoOffset);  //Calibrate servo
+  servo.write(90 + servoOffset);  //Calibrate servo
 }
 
 void loop() {
